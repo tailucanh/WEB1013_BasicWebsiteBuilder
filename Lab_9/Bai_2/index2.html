@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9-2</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div class="container">
+        <form name="dangnhap" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label class="font-chu">Họ và tên:</label>
+                <input type="text" name="username" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="font-chu"> Giới tính: </label>
+                    <input type="radio" name="gioitinh" value="Nam" checked> Nam
+                    <input type="radio" name="gioitinh" value="Nữ"> Nữ
+            </div>
+            <div class="form-group">
+                <label class="font-chu">Hình ảnh:</label>
+                <input type="file" name="file">
+            </div>
+            <div class="form-group">
+                <label class="font-chu">Quốc tịch:</label>
+                <select class="form-control">
+                    <option selected>Việt Nam</option>
+                    <option>United States</option>
+                    <option>China</option>
+                    <option>Japan</option>
+                    <option>France</option>
+                    <option>Russia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label  class="font-chu">Sở thích:</label> <br>
+                <input type="checkbox" name="sothich" value="Thể thao"> Thể thao
+                <input type="checkbox" name="sothich" value="Du lịch" checked> Du lịch
+                <input type="checkbox" name="sothich" value="Âm nhạc"> Âm nhạc
+                <input type="checkbox" name="sothich" value="Ẩm thực"> Ẩm thực
+            </div>
+            <div class="form-group">
+                <label class="font-chu"> Ghi chú:</label><br>
+                <textarea class="form-control" name="ghichu" rows="5"></textarea>
+            </div>
+
+            <hr align="left" width="400px">
+            <input type="submit" value="Đăng kí" class="form-button">
+            <input type="submit" value="Nhập lại" class="form-button">
+        </form>
+    </div>
+</body>
+</html>

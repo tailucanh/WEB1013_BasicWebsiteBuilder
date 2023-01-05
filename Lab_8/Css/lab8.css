@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#page{
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #000;
+}
+#page nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+#page aside{
+    min-height: 500px;
+    width: 25%;
+    float: right;
+}
+#page footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.menu>ul>li{
+    display:inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display:block;
+}
+.menu>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:orangered;
+    text-align:center;
+}
+.menu>ul>li>a{
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+}
+ .menu ul ul a{
+    display:block;
+ }
+.menu>ul>li:hover>ul{
+    display:block
+}
+.menu ul ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:2px;
+    width:110px;
+    background-color:white;
+    box-shadow:0 0 3px gray;
+}
+ .menu ul ul a{
+    display: block;
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+    text-align: left;
+ }
+ .menu>ul>li:hover>ul{
+     display: block;
+ }
+ .menu ul ul a:hover{
+    background-color:orangered;
+    color:white;
+ }
+ .container{
+    position: relative;
+    background-image: url(../Bai_3/banner.png);
+    background-size: 100% 100%;
+    height: 360px;
+}
+header .container h1{
+    font-size: 50.0px;
+    color: rgb(230, 225, 225);
+    font-family: fantasy;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-shadow: 0 0 20px rgb(231, 120, 86);
+    position: absolute;
+    left: 25px;
+    bottom: 30px;
+    font-variant: small-caps;
+}
+.vmenu{
+    padding:0px;
+    margin:5px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0px 0px 2px gray;
+}
+.vmenu a{
+    background: url(../Bai_3/bullet_red.png) no-repeat 1px center;
+    display: block;
+    border-bottom:1px dotted orangered;
+    color:orangered;
+    font-variant:small-caps;
+    font-size:larger;
+    text-decoration:none;
+    padding:8px 5px 8px 30px;
+   }
+.vmenu a:hover{
+    background: url(../Bai_3/bullet_yellow.png) no-repeat 1px center;
+    border-bottom:1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}

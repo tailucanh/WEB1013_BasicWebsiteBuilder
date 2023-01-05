@@ -1,0 +1,30 @@
+
+.menu{
+    margin: 100px;
+    padding: 0;
+    list-style: none;
+    border-radius: 10px;
+    border: 1px gray solid;
+    box-shadow: 0 0 2px gray;
+ 
+}
+.menu a{
+    background: url('bullet_red.png') no-repeat 10px center;
+    border-bottom: 1px orange dashed;
+    display: block;
+    border-bottom: 1px dotted orange;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 15px 5px 15px 40px;
+}
+
+.menu a:hover{
+    background: url('bullet_yellow.png') no-repeat 10px center;
+    background-color: orangered;
+    color: white;
+    border-bottom: 1px dotted white;
+    font-weight: bold;
+}
+

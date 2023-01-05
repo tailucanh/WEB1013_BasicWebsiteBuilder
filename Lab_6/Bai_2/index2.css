@@ -1,0 +1,80 @@
+body{
+    padding: 0; 
+    margin: 0; 
+}
+.container{
+    width: 90%; 
+    margin: 0 auto;
+}
+.container header{ 
+    background-image: url('banner.png');
+    background-size: 100% 100%;
+    padding: 15%;
+}
+.container header h2{
+    position: absolute;
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+
+
+.container  nav { 
+    line-height: 40px;   
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.container  nav  a{ 
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container  nav  a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+.container article{ 
+    height: 400px;
+    width: 80%;
+    background-color: rgb(223, 215, 215);
+    float: left;
+}
+.container  aside{ 
+    height: 400px;   
+    width: 18%;  
+    float: right ;
+    background-color: rgb(206, 201, 201);
+
+}
+
+.container  aside  ul  li  {
+    padding-top: 30px;
+
+}
+
+.container  aside  ul  li a{
+    text-decoration: none;
+    color: black; 
+    font-size: 18px;
+}
+
+
+.container  footer{ 
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: rgb(121, 175, 175);
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 20px;
+    clear: both; 
+}
+
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}

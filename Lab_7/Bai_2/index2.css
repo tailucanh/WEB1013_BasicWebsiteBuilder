@@ -1,0 +1,93 @@
+.san-pham{
+    margin: 0 auto;
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+}
+
+.khung{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    text-align: center;
+    position: relative; 
+    margin-bottom: 10px;
+}
+.khung .image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.khung  .name{
+    font-variant: small-caps;
+    color: rgb(231, 155, 13);
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.khung  .name:hover{
+    color: rgba(195, 166, 204, 0.582);
+}
+
+.khung .price{
+    position: absolute; 
+    left: 20px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+.khung  .price:hover{
+   color: gold;
+}
+
+.khung  .icons{
+    position: absolute;
+    right: 29px;
+    bottom: 5px;
+    width: 25px;
+}
+.khung   .icons  .img {
+    width: 35px;
+    height: 35px;
+    opacity: 1;  
+}
+.khung   .icons  .img:hover{  
+    opacity: 0.5;
+}
+
+.khung  .new-icon{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    width: 70px;
+}
+
+
+
+
+/*Thêm ngoài: hiệu ứng ảnh*/
+/*Hiệu ứng nháy*/
+@-webkit-keyframes flash{
+    0% { opacity: .3;}
+    100% { opacity: 1; }
+}
+@keyframes flash{
+    0% { opacity: .3;}
+    100% { opacity: 1; }
+}
+.flash:hover{
+    opacity: 1;
+    -webkit-animation: flash 2s;
+    animation: flash 2s;
+}
+/*Hiệu ứng room to khi di chuột*/
+.new-room{
+    overflow: hidden;
+    display: inline-block;
+    transition: 1.4s;
+}
+.new-room:hover{
+    transform: scale(1.2,1.2);
+}

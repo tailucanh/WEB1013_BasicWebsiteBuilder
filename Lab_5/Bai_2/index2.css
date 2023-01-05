@@ -1,0 +1,67 @@
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.box1{
+    margin-top: 20px;
+    
+}
+.style{
+    text-align: center;
+    width:300px;
+    height: 300px;
+    float: left;
+}
+
+.san_pham{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 8px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+   
+}
+
+.san_pham  img{
+   width: 230px;   /*Chiều rộng ảnh tối đa*/
+   height: 150px;
+  
+    
+}
+.san_pham .ten{
+    font-size: large;
+    color: blue;
+    font-weight: bold ;
+    margin-bottom: 30px;
+}
+.san_pham .ten:hover{
+    color: brown;
+}
+
+.san_pham .money{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san_pham .money  del{
+    color: gray;
+}
+
+
+/*----------------*/
+@-webkit-keyframes flash{
+    0% { opacity: .3;}
+    100% { opacity: 1; }
+}
+@keyframes flash{
+    0% { opacity: .3;}
+    100% { opacity: 1; }
+}
+.flash:hover{
+    opacity: 1;
+    -webkit-animation: flash 3s;
+    animation: flash 4s;
+}

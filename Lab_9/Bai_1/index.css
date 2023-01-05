@@ -1,0 +1,36 @@
+.dangnhap{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+.form-group{
+    margin: 0 30px;
+}
+.form-control{
+    margin: 5px 2px;
+    padding: 5px;
+    border: none;  /*Ẩn khung*/
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 0 0 4px gray;
+    color: rgb(0, 0, 0);
+    display: block;
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: 0 0 4px orangered;  
+    color: black;
+}
+.form-button{
+    border: none;
+    margin: 5px 30px;
+    box-shadow: 0 0 4px gray;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px 10px;
+    
+}
+.form-button:focus{
+    box-shadow: 0 0 4px orangered;  
+}

@@ -1,0 +1,72 @@
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    background-color: #ccc;
+    border: 4px inset;
+    border-bottom: 5px ridge rgb(196, 196, 176);
+    border-right:  5px ridge rgb(158, 158, 146);
+}
+.form-group{
+    margin: 20px 1px;
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-group label{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.form-control:focus{
+    background-color: rgb(243, 243, 153);
+    box-shadow: 0 0 2px rgb(230, 95, 95);
+    border: 2px solid yellow;
+    font-size: 17px;
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 2px solid cyan;
+    color: rgb(4, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(70deg,#03e6f5,#f471b5,#feeb3e,#03b3f8);
+    background-size: 200%;
+    animation: glow 6s linear infinite;
+}
+@keyframes glow {
+    0%{
+        background-position: 0%;
+    } 
+    100% {
+        background-position: 700%;
+    }
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px gray;
+}
+.form-button:disabled{
+    color: rgb(5, 4, 4);
+    box-shadow: inset 0 0 20px gray;
+}
+.form-group legend{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+.container fieldset{
+    border: 2px solid gray;
+    font-weight: bold;
+}

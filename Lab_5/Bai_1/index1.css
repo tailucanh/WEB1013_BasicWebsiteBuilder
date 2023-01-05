@@ -1,0 +1,18 @@
+body{
+ text-align: center;
+}
+
+p>img{
+    max-width: 30%;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(22, 22, 22, 0.356);
+    border-radius: 10px;
+    background-color: gold;
+    box-shadow: 5px 5px rgb(70, 161, 197);
+}
+p>img:hover{
+    box-shadow: 10px 15px rgb(214, 59, 59) ;
+    background-color: aqua;
+}
